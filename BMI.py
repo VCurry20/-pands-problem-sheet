@@ -22,3 +22,4 @@ weight = input ('Enter your weight in KG: ')
 print('Your weight is ' + str(weight))
 
 print('Your BMI is your weight divided by height squared')
+print ( 65 / 1.8**2)
