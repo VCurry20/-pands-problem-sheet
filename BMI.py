@@ -11,7 +11,7 @@
 # details given by Andrew - weight 65kg / height 180cm / formula w/h**
 
 name = input ('Enter your name: ')
-print('Hello' + name + '\nNice to meet you, lets calculate your BMI!')
+print('Hello ' + name + '\nNice to meet you, lets calculate your BMI!')
 
 height = int(input('Enter your height in CM: '))
 heightinmeters = height / 100
