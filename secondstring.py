@@ -3,6 +3,11 @@
 # Write a program that asks the user to input a string
 # Output will revert every second letter
 
+## References:
+# https://www.youtube.com/watch?v=ajrtAuDg3yw
+# https://www.w3schools.com/python/python_howto_reverse_string.asp
+# 
+
 # sentence to enter - The quick brown fox jumps over the lazy dog.
 
 
