@@ -10,7 +10,7 @@ Student ID: G00074924
 <br/>
 
 
-## Week 2 - Task 1 
+## Week 2: Task 1 
 
 
 > File Name - BMI.py
@@ -23,7 +23,7 @@ Student ID: G00074924
 
 
 <br/>
-
+<br/>
 
 I am hopinh this just comes out like the author line above
 
