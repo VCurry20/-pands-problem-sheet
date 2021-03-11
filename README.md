@@ -1,14 +1,14 @@
 # -pands-problem-sheet
 
-<h1> Weekly Tasks for PANDS 2021 </h1>
+# Weekly Tasks for PANDS 2021 
 Author Veronica Curry
 
 Student ID: G00074924
 
 
 
-<h2> Week 2 / Task 1 2<h2>
-<font size = "1">
+## Week 2 - Task 1 
+
 
 > File Name - BMI.py
 
@@ -18,11 +18,13 @@ Student ID: G00074924
 
 > Output - BMI - weight divided by height in metres SQ
 
-</font>
 
+I am hopinh this just comes out like the author line above
 
+That would be great
 
+I do not want it to be giant
 
-<p style = "font family:Calibri(body); font-size:8pt">
-This line is a test - I hope it looks like the student id line 
-</p>
+njgnslgns;kg
+
+janjdvnjdv
