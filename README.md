@@ -1,7 +1,8 @@
 # -pands-problem-sheet
 
-<h1> Weekly Tasks for PANDS 2021 1</h1>
+<h1> Weekly Tasks for PANDS 2021 </h1>
 Author Veronica Curry
+
 Student ID: G00074924
 
 
@@ -21,6 +22,7 @@ Student ID: G00074924
 
 
 
-<p style = "font family: Calibri; font-size: 11pt">
+
+<p style = "font family: Calibri; font-size: 9pt">
 This line is a test - I hope it looks like the student id line 
 </p>
