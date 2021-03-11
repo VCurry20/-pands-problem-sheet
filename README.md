@@ -6,6 +6,8 @@ Author Veronica Curry
 Student ID: G00074924
 
 
+<br/>
+<br/>
 
 
 ## Week 2 - Task 1 
