@@ -17,7 +17,7 @@ Student ID: G00074924
 
 > Input - Person's height in Centimetres and weight in Kilograms
 
-> Output - BMI - weight divided by height in metres SQ\  
+> Output - BMI - weight divided by height in metres SQ  <br/>
 
 
 
