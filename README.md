@@ -23,6 +23,6 @@ Student ID: G00074924
 
 
 
-<p style = "font family: Calibri; font-size: 9pt">
+<p style = "font family:Calibri(body); font-size:8pt">
 This line is a test - I hope it looks like the student id line 
 </p>
