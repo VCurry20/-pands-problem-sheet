@@ -8,6 +8,7 @@ Student ID: G00074924
 
 <h2> Week 2 / Task 1 2<h2>
 <font size = "1">
+
 > File Name - BMI.py
 
 > Objective - Write a program that calculates a person's BMI
@@ -20,3 +21,4 @@ Student ID: G00074924
 
 
 
+This line is a test - I hope it looks like the student id line 
