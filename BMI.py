@@ -1,4 +1,4 @@
-# Calculate a perons BMI from Height and weight
+# Calculate a person's BMI from height and weight
 # Week 2 
 # Task 1
 
