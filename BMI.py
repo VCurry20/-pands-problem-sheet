@@ -1,6 +1,6 @@
 # Calculate a person's BMI from height and weight
 # Week 2 
-# Task 1
+# Task 2
 
 # Veronica Curry
 # Student ID: G00074924

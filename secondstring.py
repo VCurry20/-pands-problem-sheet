@@ -1,6 +1,6 @@
 # Write a program asks for input - string; outputs every second letter in reverse
 # Week 3
-# Task 2
+# Task 3
 
 # Veronica Curry
 # Student ID: G00074924
