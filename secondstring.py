@@ -7,11 +7,11 @@
 
 # sentence to enter: The quick brown fox jumps over the lazy dog.
 
-# Methodology:
+"""# Methodology:
 # need to figure out how to reverse a phrase [::-1]
 # delete every second letter or choose only every second letter [::-2]
 # how to choose everysecond letter  // Slicing 
-# include the full stop
+# include the full stop """
 
 
 phrase = input ( "Please submit a phrase: ")                                            # 1.
@@ -24,9 +24,9 @@ print ( "Your phrase revert and missing every second letter is: " + (phrase[::-2
 # 1. Set variable from input "Please submit a phrase: "
 # 2. Print " Your phrase ( returns variable) \ new line - "We will now return this reverted"
 
-# 3. Print " Your phrase reverted is " (Variable Phrase - reverted written to the power of minus one - Sliced minus 1)
+# 3. Print " Your phrase reverted is " (Variable Phrase - from beginning to the end reverted written to the power of minus one - Sliced minus 1)
 
-# 4.Print " Your phrase reverted is and is missing evert second letter is " (Variable Phrase - reverted written to the power of minus two - Sliced minus 2)
+# 4.Print " Your phrase reverted is and is missing evert second letter is " (Variable Phrase - from beginning to the end reverted written to the power of minus two - Sliced minus 2)
 
 
 
