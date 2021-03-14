@@ -29,6 +29,8 @@ print ( "Your phrase revert and missing every second letter is: " + (phrase[::-2
 # 4.Print " Your phrase reverted is and is missing evert second letter is " (Variable Phrase - reverted written to the power of minus two - Sliced minus 2)
 
 
+
+
 # Reference 1 - Python Tutorial - https://www.youtube.com/watch?v=ajrtAuDg3yw
 # Reference 2 - W3 Schools - https://www.w3schools.com/python/python_howto_reverse_string.asp
 # Reference 3 - Slicing Blog - https://www.saltycrane.com/blog/2009/04/how-reverse-words-sentence-using-python-and-c/
