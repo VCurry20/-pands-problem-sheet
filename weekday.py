@@ -28,7 +28,7 @@ weekdays = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", 
  
 def whichdayisit (weekday):
     
-    if weekdays in range (0,4):
+    if weekday in range (0,4):
         return ("Yes, unfortunately it's a weekday")
 
     else:
