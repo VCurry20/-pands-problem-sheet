@@ -7,7 +7,7 @@
 
 # sentence to enter: The quick brown fox jumps over the lazy dog.
 
-"""# Methodology:
+#Methodology:
 # need to figure out how to reverse a phrase [::-1]
 # delete every second letter or choose only every second letter [::-2]
 # how to choose everysecond letter  // Slicing 
