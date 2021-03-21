@@ -22,7 +22,7 @@
 # if when x do a and if not do b
 
 
-import weekday
+import datetime
 
 weekdays = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
  
