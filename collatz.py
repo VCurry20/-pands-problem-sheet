@@ -10,7 +10,7 @@
 # Student ID: G00074924
 
 
-# answer - 
+# Answer - 
 # Please enter a positive integer:  10
 # result: 10, 5, 16, 8, 4, 2, 1
 
@@ -24,39 +24,23 @@
 # set formula """
 
 
-def formula (number):                                           # 1. 
-    if (number % 2) == 0:                                       # 2. 
-        return int(number / 2)                                  # 3. 
+def formula (number):                                           # 1. Define Formula
+    if (number % 2) == 0:                                       # 2. Check if even - modulus % 2 - if when divided down by 2 the result is 0 its even
+        return int(number / 2)                                  # 3. If even - return the number -  divide the number by 2
    
-    else:                                                       # 4. 
-        return int( (number * 3) + 1)                           # 5. 
+    else:                                                       # 4. If False / else ( if it does not fulfill (number % 2) == 0: it is automatically false )
+        return int( (number * 3) + 1)                           # 5. Then return ( number multiplied by 3, minus 1)
 
 
-number = int (input("Please enter a positive integer:"))        # 6. 
+number = int (input("Please enter a positive integer:"))        # 6. Set the variable as input - that input is set as an interger
 
-print(number)                                                   # 7. 
-while(number !=1):                                              # 8. 
-        number = formula (number)                               # 9. 
-        print (number)                                          # 10. 
+print(number)                                                   # 7. Print number ( this is the input number e.g 10)
+while(number !=1):                                              # 8. While value is set for the formula to run - while number is not equal to 1
+        number = formula (number)                               # 9. New number - which is (number) run through the formula
+        print (number)                                          # 10. Print Number 
 
-print(number)                                                   # 11. 
+print(number)                                                   # 11. Print the output of number run through the formula - i.e the result
 
-
-# 1. Define Formula
-# 2. Check if even - modulus % 2 - if when divided down by 2 the result is 0 its even
-# 3. If even - return the number -  divide the number by 2
-
-# 4. If False / else ( if it does not fulfill (number % 2) == 0: it is automatically false )
-# 5. Then return ( number multiplied by 3, minus 1)
-
-# 6. Set the variable as input - that input is set as an interger
-
-# 7. Print number ( this is the input number e.g 10)
-# 8. While value is set for the formula to run - while number is not equal to 1
-# 9. New number - which is (number) run through the formula
-# 10. Print Number 
-
-# 11. Print the output of number run through the formula - i.e the result
 
 
 

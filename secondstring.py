@@ -14,21 +14,13 @@
 # include the full stop """
 
 
-phrase = input ( "Please submit a phrase: ")                                            # 1.
-print ( "Your phrase is: " + phrase +"\nWe will now return this reverted")              # 2.
+phrase = input ( "Please submit a phrase: ")                                            # 1. Set variable from input "Please submit a phrase: "
+print ( "Your phrase is: " + phrase +"\nWe will now return this reverted")              # 2. Print " Your phrase ( returns variable) \ new line - "We will now return this reverted"
 
-print ( "Your phrase reverted is: " + (phrase[::-1]))                                   # 3.
+print ( "Your phrase reverted is: " + (phrase[::-1]))                                   # 3. Print " Your phrase reverted is " (Variable Phrase - from beginning to the end reverted written to the power of minus one - Sliced minus 1)
 
-print ( "Your phrase revert and missing every second letter is: " + (phrase[::-2]))     # 4.
+print ( "Your phrase revert and missing every second letter is: " + (phrase[::-2]))     # 4. Print " Your phrase reverted is and is missing evert second letter is " (Variable Phrase - from beginning to the end reverted written to the power of minus two - Sliced minus 2)
  
-# 1. Set variable from input "Please submit a phrase: "
-# 2. Print " Your phrase ( returns variable) \ new line - "We will now return this reverted"
-
-# 3. Print " Your phrase reverted is " (Variable Phrase - from beginning to the end reverted written to the power of minus one - Sliced minus 1)
-
-# 4.Print " Your phrase reverted is and is missing evert second letter is " (Variable Phrase - from beginning to the end reverted written to the power of minus two - Sliced minus 2)
-
-
 
 
 # Reference 1 - Python Tutorial - https://www.youtube.com/watch?v=ajrtAuDg3yw

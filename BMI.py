@@ -11,34 +11,20 @@
 # Result - 20.06
 
 
-name = input ('Enter your name: ')                                          # 1.
-print('Hello ' + name + '\nNice to meet you, lets calculate your BMI!')     # 2.
+name = input ('Enter your name: ')                                          # 1. Set variable "name" - which is the input from "Enter your Name
+print('Hello ' + name + '\nNice to meet you, lets calculate your BMI!')     # 2. Print Statement - Hello "name" / New line  /- nice to meet you, lets calculate your BMI!
 
-height = float(input('Enter your height in CM: '))                          # 3.
-heightinmeters = height / 100                                               # 4.
-print('Your height in meters is {}'.format(heightinmeters))                 # 5.
+height = float(input('Enter your height in CM: '))                          # 3. Set variable "height" - Input set as an interger ( set as a number to allow for arithemetic)
+heightinmeters = height / 100                                               # 4. Set variable "heightinmetres" - this is height divided by 100 - cm changed to metres
+print('Your height in meters is {}'.format(heightinmeters))                 # 5. Print statement telling user height in cm / using format to add hightinmetres into statement - allows for changes/ variables
 
-weight = float(input("Input your weight in Kilogram: "))                    # 6.
-print('Your weight is {}'.format(weight))                                   # 7.
+weight = float(input("Input your weight in Kilogram: "))                    # 6. Set variable "Weight" - Input set as an interger ( set as a number to allow for arithemetic)
+print('Your weight is {}'.format(weight))                                   # 7. Print statement telling user weight / using format to add weight into statement
 
-BMI = (round(weight / (heightinmeters * heightinmeters), 2))                # 8.
-print ( " Your BMI is {}".format (BMI))                                     # 9.
-
-
+BMI = (round(weight / (heightinmeters * heightinmeters), 2))                # 8. Calculate BMI - round the result of weight divded by heightinmetres squared
+print ( " Your BMI is {}".format (BMI))                                     # 9. Print statement Your BMI is - using format to input the variable of the BMI result
 
 
-# 1. Set variable "name" - which is the input from "Enter your Name
-# 2. Print Statement - Hello "name" / New line  /- nice to meet you, lets calculate your BMI!
-
-# 3. Set variable "height" - Input set as an interger ( set as a number to allow for arithemetic)
-# 4. Set variable "heightinmetres" - this is height divided by 100 - cm changed to metres
-# 5. Print statement telling user height in cm / using format to add hightinmetres into statement - allows for changes/ variables
-
-# 6. Set variable "Weight" - Input set as an interger ( set as a number to allow for arithemetic)
-# 7. Print statement telling user weight / using format to add weight into statement
-
-# 8. Calculate BMI - round the result of weight divded by heightinmetres squared
-# 9. Print statement Your BMI is - using format to input the variable of the BMI result
 
 
 # Reference 1 - BMI formula http://www.kingsweightlossclinics.co.uk/resources/bmi-checker/

@@ -22,21 +22,21 @@
 # if when x do a and if not do b
 
 
-import datetime
+import datetime                                                                           #1. Import datetime module
 
-weekdays = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+weekdays = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday") #2. Set weekdays
  
-def whichdayisit (weekday):
+def whichdayisit (weekday):                                                               #3. Define formula
     
-    for weekday in range (0,4):
-        return ("Yes, unfortunately it's a weekday")
+    for weekday in range (0,4):                                                           #4. For days in range 0 - 4 (Monday - Friday)
+        return ("Yes, unfortunately it's a weekday")                                      #5. Print "Unfortunately its the weekday"
 
-    else:
-        return ("It is the weekend, yay!")
+    else:                                                                                 #6. Else / Otherwise 
+        return ("It is the weekend, yay!")                                                #7. Print "Yay its the weekend"
 
 
-day = input ("Please enter a day of the week: ")  
-print (whichdayisit (day))
+day = input ("Please enter a day of the week: ")                                          #8. Day is set as input from "please enter a day"
+print (whichdayisit (day))                                                                #9. Print the outcome of the input through the formula
 
          
 
