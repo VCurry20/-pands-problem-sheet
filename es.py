@@ -1,12 +1,12 @@
 # Read in a TXT File and output the numbers of e's it contains
 
 # Week 7
-# Task 7
 
 # Veronica Curry
 # Student ID: G00074924
 
-
+# Methodology
+# Set up txt file 
 # The program should take the file name from an argument on the command line
 # read out a number - the total count of E's
 # Capital / Not Capital isnt specified

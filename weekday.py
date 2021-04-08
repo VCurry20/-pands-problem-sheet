@@ -1,7 +1,6 @@
 # Write a program that outputs whether or not today is a weekday with an associated message
 
 # Week 5
-# Task 5
 
 # Veronica Curry
 # Student ID: G00074924
@@ -13,12 +12,10 @@
 
 
 # Methodology
-## For loops and list of days of the week
-## Array / list of days?
-
+# For loops and list of days of the week
+# Array / list of days?
 # daysofWeek = (Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday)
 # weekend = last two of this list - 5, 6
-
 # if when x do a and if not do b
 
 

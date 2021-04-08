@@ -1,6 +1,5 @@
 # Calculate a person's BMI from height and weight
 # Week 2 
-# Task 2
 
 # Veronica Curry
 # Student ID: G00074924
@@ -10,6 +9,11 @@
 # weight 65kg / height 180cm 
 # Result - 20.06
 
+# Methodology
+# Get formula for BMI
+# Set inputs
+# Pass inputs through formula
+# set correct number types and measurement types
 
 name = input ('Enter your name: ')                                          # 1. Set variable "name" - which is the input from "Enter your Name
 print('Hello ' + name + '\nNice to meet you, lets calculate your BMI!')     # 2. Print Statement - Hello "name" / New line  /- nice to meet you, lets calculate your BMI!

@@ -1,13 +1,12 @@
 # Write a program asks for input - string; outputs every second letter in reverse
 # Week 3
-# Task 3
 
 # Veronica Curry
 # Student ID: G00074924
 
 # sentence to enter: The quick brown fox jumps over the lazy dog.
 
-#Methodology:
+# Methodology:
 # need to figure out how to reverse a phrase [::-1]
 # delete every second letter or choose only every second letter [::-2]
 # how to choose everysecond letter  // Slicing 

@@ -2,7 +2,6 @@
 # You should create your own function
 
 # Week 6
-# Task 6
 
 # Veronica Curry
 # Student ID: G00074924
@@ -12,7 +11,7 @@
 # The square root of 14.5 is approx. 3.8
 
 
-# Research Methodology:
+# Methodology:
 # What is a Sq Root and how do we work it out?
 # Sq Root in Python and how it operates
 # Newton in Python

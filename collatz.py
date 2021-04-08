@@ -4,7 +4,6 @@
 # Program end at 1
 
 # Week 4
-# Task 4
 
 # Veronica Curry
 # Student ID: G00074924
@@ -15,13 +14,13 @@
 # result: 10, 5, 16, 8, 4, 2, 1
 
 
-"""# Methodology:
+# Methodology:
 # required - while loop - stops when hits a value - set in program
 # need to set loop parameters - stop when hits 1
 # evaluate even vs odd - boolean - true / falue -- % = 0 
 # set commands for even and odd - even / 2  - odd * 3 + 1
 # lists [] values - append 
-# set formula """
+# set formula 
 
 
 def formula (number):                                           # 1. Define Formula
