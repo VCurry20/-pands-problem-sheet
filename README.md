@@ -124,9 +124,8 @@ while(number !=1):
 
 print(number)                                                   
 ```
-
-
-
+In this program a formula is definied; this checks if the number is even - if even it divides by 2, if not it is odd and therefore it is multiplied by 3 and 1 is added to it.
+From this formula numbers are then passed through - each number is printed to the variable and returned as an output at the end of the program.
 
 References:
 
