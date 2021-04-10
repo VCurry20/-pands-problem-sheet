@@ -24,7 +24,6 @@ This file contains the overview for the 7 weekly tasks for the Programing and Sc
 > Output - BMI - weight divided by height in metres SQ
 
 <br/>
-<br/>
 
 # Code:
 
@@ -46,7 +45,11 @@ print ( " Your BMI is {}".format (BMI))
 This code asks the user to input their name and greets them. The user is then asked for the height and weight and from this the program calculates their BMI.
 
 References:
-BMI formula (http://www.kingsweightlossclinics.co.uk/resources/bmi-checker/)
-BMI Python (https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292#:~:text=')%20while%20input%20%3D%3D%20'imperial,which%20means%20you%20are%20underweight.)
-BMI Python Forumla (https://www.w3resource.com/python-exercises/python-basic-exercise-66.php)
-BMI Calculator (https://www.slimmingworld.ie/bmi-calculator)
+
+- BMI formula (http://www.kingsweightlossclinics.co.uk/resources/bmi-checker/)
+
+- BMI Python (https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292#:~:text=')%20while%20input%20%3D%3D%20'imperial,which%20means%20you%20are%20underweight.)
+
+- BMI Python Forumla (https://www.w3resource.com/python-exercises/python-basic-exercise-66.php)
+
+- BMI Calculator (https://www.slimmingworld.ie/bmi-calculator)
