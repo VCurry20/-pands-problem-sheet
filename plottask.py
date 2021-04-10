@@ -16,33 +16,33 @@
 # add in legends / colours / etc
 # show to test / fig to save when completed
 
-import matplotlib.pyplot as plt 
-import numpy as np 
+import matplotlib.pyplot as plt                                                         # import Matplotlip as plt
+import numpy as np                                                                      # import numpy as np
 
 
-fplot= np.array(range(0,4))
-gplot= fplot * fplot
-hplot= fplot * fplot * fplot
+fplot= np.array(range(0,4))                                                             # set plot f - from numpy array - range 0,4
+gplot= fplot * fplot                                                                    # set plot g = x*x - fplot * fplot
+hplot= fplot * fplot * fplot                                                            # set plot h = x*x*x - fplot*fplot*fplot
+ 
+plt.plot(hplot, label='Line H', color='#6495ED', linewidth=4)                           # Plot h - with label, color and linewidth
+plt.plot(gplot, label='Line G', color='#40E0D0', linewidth=4, linestyle=':')            # PLot g - with label, color, linewidth and as a dot-to-dot line
+plt.plot(fplot, label='Line F', color='#9FE2BF', linewidth=4, linestyle=':')            # PLot f - with label, color, linewidth and as a dot-to-dot line
 
-plt.plot(fplot, label='Line F', color='#00FFFF', linewidth=4)
-plt.plot(gplot, label='Line G', color='#ff66d9', linewidth=4)
-plt.plot(hplot, label='Line H', color='#ffff66', linewidth=4)
+plt.title('Task Week 8', fontsize= 16)                                                  # plot title - 'title name' - font size
+plt.xlabel('X Axis')                                                                    # plot x axis label - XAxis
+plt.ylabel('Y Axis')                                                                    # plot y axis label - YAxis
+plt.legend()                                                                            # plot add legend
 
-plt.title('Task Week 8')
-plt.xlabel('X Axis')
-plt.ylabel('Y Axis')
-plt.legend()
+plt.gca().spines['top'].set_visible(False)                                              # plot - set the spine - top - as invisible
+plt.gca().spines['right'].set_visible(False)                                            # plot - set the spine - right - as invisible
 
-plt.gca().spines['top'].set_visible(False)
-plt.gca().spines['right'].set_visible(False)
+plt.text(2.25,20, 'Line H')                                                             # plot txt (line name) - coordinates on graph - line name
+plt.text(2.3,8, 'Line G')                                                               # plot txt (line name) - coordinates on graph - line name
+plt.text(2.6,4, 'Line F')                                                               # plot txt (line name) - coordinates on graph - line name
 
-plt.text(2.25,20, 'Line H')
-plt.text(2.3,8, 'Line G')
-plt.text(2.6,4, 'Line F')
+# plt.show ()                      # show the plot / print out
 
-plt.show ()                      # show the plot / print 
-
-#plt.savefig("plotTask.png")       # save the plot
+plt.savefig("plotTask.png")       # save the plot
 
 
 
@@ -56,6 +56,8 @@ plt.show ()                      # show the plot / print
 # Reference 8. https://towardsdatascience.com/10-tips-to-improve-your-plotting-f346fa468d18
 # Reference 9. https://www.pythoninformer.com/python-libraries/matplotlib/line-plots/#:~:text=You%20can%20set%20the%20width,style%20using%20the%20linestyle%20parameter.
 # Reference 10. https://queirozf.com/entries/add-labels-and-text-to-matplotlib-plots-annotation-examples
+# Reference 11. https://uk.mathworks.com/help/matlab/creating_plots/add-title-axis-labels-and-legend-to-graph.html
+
 
 
 
