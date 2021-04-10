@@ -12,10 +12,17 @@ This file contains the overview for the 7 weekly tasks for the Programing and Sc
 <br/>
 
 
+<<<<<<< HEAD
 ## Task 1  - BMI
 
 
 > File Name - BMI.py - (./BMI.py)
+=======
+## Task 1 BMI
+
+
+> File Name - BMI.py 
+>>>>>>> ae4eb589f6a5904c263cb4815f4aa0cb8ca2e153
 
 > Objective - Write a program that calculates a person's BMI
 
