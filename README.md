@@ -15,7 +15,7 @@ This file contains the overview for the 7 weekly tasks for the Programing and Sc
 # Task 1  - BMI
 
 
-> File - [BMI.py](./https://github.com/VCurry20/-pands-problem-sheet/blob/main/BMI.py)
+> File - [BMI.py](https://github.com/VCurry20/-pands-problem-sheet/blob/main/BMI.py)
 
 > Objective - Write a program that calculates a person's BMI
 
@@ -46,13 +46,13 @@ This code asks the user to input their name and greets them. The user is then as
 
 References:
 
-- BMI formula (http://www.kingsweightlossclinics.co.uk/resources/bmi-checker/)
+- Kings Weightloss Clinic, BMI Checker, (No Date), http://www.kingsweightlossclinics.co.uk/resources/bmi-checker/ (Accessed: February 2021)
 
-- BMI Python (https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292#:~:text=')%20while%20input%20%3D%3D%20'imperial,which%20means%20you%20are%20underweight.)
+- Stack Overflow, BMI Calculator Python, (2014), https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292#:~:text=')%20while%20input%20%3D%3D%20'imperial,which%20means%20you%20are%20underweight. (Accessed: February 2021)
 
-- BMI Python Forumla (https://www.w3resource.com/python-exercises/python-basic-exercise-66.php)
+- W3 Resource, BMI Python Forumla (2017), https://www.w3resource.com/python-exercises/python-basic-exercise-66.php (Accessed: February 2021)
 
-- BMI Calculator (https://www.slimmingworld.ie/bmi-calculator)
+- Slimming World, BMI Calculator, (No Date) https://www.slimmingworld.ie/bmi-calculator (Accessed: February 2021)
 
 
 <br/>
@@ -60,7 +60,7 @@ References:
 # Task 2  - Second String
 
 
-> File - [secondstring.py](./https://github.com/VCurry20/-pands-problem-sheet/blob/main/secondstring.py)
+> File - [secondstring.py](https://github.com/VCurry20/-pands-problem-sheet/blob/main/secondstring.py)
 
 > Objective - Write a program that asks for a input and outputs every second letter in reverse
 
@@ -85,12 +85,11 @@ This code asks the user for an input - example " The quick brown fox jumps over 
 
 References:
 
-- Python Tutorial - https://www.youtube.com/watch?v=ajrtAuDg3yw
+- Youtube, Python Tutorial: Slicing lists and Strings (Oct 29, 2015) - https://www.youtube.com/watch?v=ajrtAuDg3yw (Accessed: February 2021)
 
-- W3 Schools - https://www.w3schools.com/python/python_howto_reverse_string.asp
+- W3 Schools, How to reverse a string, (No Date) - https://www.w3schools.com/python/python_howto_reverse_string.asp (Accessed: February 2021)
 
-- Slicing Blog - https://www.saltycrane.com/blog/2009/04/how-reverse-words-sentence-using-python-and-c/
-
+- Salty Crane Blog, How to reverse words in a sentence using Python and C (April 22, 2009) - https://www.saltycrane.com/blog/2009/04/how-reverse-words-sentence-using-python-and-c/ (Accessed: February 2021)
 <br/>
 
 # Task 3  - Collatz
@@ -131,12 +130,12 @@ print(number)
 
 References:
 
-- Multiplication of numbers - https://stackoverflow.com/questions/39835536/python-multiplying-all-even-numbers-in-a-list
-- If statments - https://pythonprogramming.net/if-statement-python-3-basics-tutorial/
-- Numbers even or odd - https://dev.to/vikkyomkar/3-ways-to-find-if-a-number-is-odd-even-in-python-1ao7
-- Collatz prog - https://www.youtube.com/watch?v=lAp_5qTdOhM
-- Stack overflow - collatz -https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
-- Collatz - pg 77 - http://files.urpdfs.com/automate-the-boring-stuff-with-python.pdf
+- Stack Overflow, Python Multiplying all even numbers in a list (2017) - https://stackoverflow.com/questions/39835536/python-multiplying-all-even-numbers-in-a-list (Accessed: February 2021)
+- Python Programming.net, If statments python tutorial ( Jan 13th, 2014) - https://pythonprogramming.net/if-statement-python-3-basics-tutorial/ (Accessed: February 2021)
+- Dev Community, 3 wats to find if a numbers is odd/even in python ( Aug 27th, 2020) - https://dev.to/vikkyomkar/3-ways-to-find-if-a-number-is-odd-even-in-python-1ao7 (Accessed: February 2021) 
+- Youtube, Collatz Sequence Algorithm in Python! ( May 8, 2020) - https://www.youtube.com/watch?v=lAp_5qTdOhM (Accessed: February 2021)
+- Stack overflow - Making a collatz program automate the boring stuff (2016) -https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff (Accessed: February 2021)
+- Automate the boring stuff, Al Sweigart, - Collatz - pg 77 - http://files.urpdfs.com/automate-the-boring-stuff-with-python.pdf (Accessed: February 2021)
 
 
 
