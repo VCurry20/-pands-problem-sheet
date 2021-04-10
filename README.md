@@ -66,7 +66,7 @@ References:
 
 > Input - sentence of the users choice
 
-> Output - sentence in reverse - missing every second letter
+> Output - every second letter from the sentence reverted
 
 
 ## Code:
@@ -80,7 +80,7 @@ print ( "Your phrase reverted is: " + (phrase[::-1]))
 print ( "Your phrase revert and missing every second letter is: " + (phrase[::-2]))
 ```
 
-This code asks the user for an input - example " The quick brown fox jumps over the lazy dog." . The program reverts this input and returns the sentence missing every second letter - example output ".o zletrv pu o wr cu h"
+This code asks the user for an input - example " The quick brown fox jumps over the lazy dog." . The program reverts this input and returns the sentence missing every second letter - example output ".o zletrv pu o wr cu h". 
 
 
 References:
@@ -90,3 +90,53 @@ References:
 - W3 Schools - https://www.w3schools.com/python/python_howto_reverse_string.asp
 
 - Slicing Blog - https://www.saltycrane.com/blog/2009/04/how-reverse-words-sentence-using-python-and-c/
+
+<br/>
+
+# Task 3  - Collatz
+
+
+> File - [collatz.py](https://github.com/VCurry20/-pands-problem-sheet/blob/main/collatz.py)
+
+> Objective - 
+
+> Input - 
+
+> Output - 
+
+
+## Code:
+
+```ruby
+def formula (number):                                           
+    if (number % 2) == 0:                                       
+        return int(number / 2)                                  
+   
+    else:                                                       
+        return int( (number * 3) + 1)                           
+
+
+number = int (input("Please enter a positive integer:"))        
+
+print(number)                                                   
+while(number !=1):                                              
+        number = formula (number)                               
+        print (number)                                          
+
+print(number)                                                   
+```
+
+
+
+
+References:
+
+- https://stackoverflow.com/questions/39835536/python-multiplying-all-even-numbers-in-a-list
+- https://pythonprogramming.net/if-statement-python-3-basics-tutorial/
+- https://dev.to/vikkyomkar/3-ways-to-find-if-a-number-is-odd-even-in-python-1ao7
+- https://www.youtube.com/watch?v=lAp_5qTdOhM
+- https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
+
+
+
+<br/>
