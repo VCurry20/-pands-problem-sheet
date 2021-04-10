@@ -18,21 +18,20 @@
 # Clear up mistakes in code / amend to suit
 
 
-def squareRoot (n):                 # 1. Define formula - everything indented under def is included in the forumla
-    x= float(n)                     # 2. Start outlining the meaning of the parts of the formula - x = the float version of input n
-    y=1.000000                      # 3. iteration initialisation / y = float 1.0000
-    e=0.000001                      # 4. accuracy after decimal place / e = float 0.00001
-    while x- y > e:                 # 5. While loop - while x - y is greater than e ( 0.00001) - stop at 0.00001
-        x = (x + y) / 2             # 6. x = x + y divided by 2
-        y = n/x                     # 7. y = n divided by x
-    print (round(x,2))              # 8. result from the formula is round x - for 2 decimal points - x to 2 decimal points
+def squareRoot (number):                 # 1. Define formula - everything indented under def is included in the forumla
+    x=float(number)                      # 2. Start outlining the meaning of the parts of the formula - x = the float version of input n
+    y=1.000000                           # 3. iteration initialisation / y = float 1.0000
+    e=0.000001                           # 4. accuracy after decimal place / e = float 0.00001
+    while x - y > e:                     # 5. While loop - while x - y is greater than e ( 0.00001) - stop at 0.00001
+          x = (x + y) / 2                # 6. x = x + y divided by 2
+          y = number/x                   # 7. y = n divided by x
+    print (round(x,2))                   # 8. result from the formula is round x - for 2 decimal points - x to 2 decimal points
 
-n = input('enter the number : ')    # 9. n is the input from the question 'enter the number '
-squareRoot (float(n))               # 10. result is the formula acted on n - n is presented as a float
+number = input('enter the number : ')    # 9. n is the input from the question 'enter the number '
+squareRoot (float(number))               # 10. result is the formula acted on n - n is presented as a float
 
 
 # Reference 1: https://www.youtube.com/watch?v=PJHtqMjrStk
-# Reference 2: https://realpython.com/python-square-root-function/
 # Reference 3: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,correct%20square%20root%20of%20N.
 # Reference 4: https://stackoverflow.com/questions/46183020/square-root-without-pre-defined-function-in-python
 # Reference x: https://stackoverflow.com/questions/455612/limiting-floats-to-two-decimal-points

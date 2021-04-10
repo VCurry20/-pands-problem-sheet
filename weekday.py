@@ -20,20 +20,23 @@
 
 
 import datetime                                                                           #1. Import datetime module
+weeknumber = datetime.datetime.today().weekday()
 
-weekdays = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday") #2. Set weekdays
- 
+week = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday","Sunday")       #2. Set weekdays
+
+
 def whichdayisit (weekday):                                                               #3. Define formula
     
     for weekday in range (0,4):                                                           #4. For days in range 0 - 4 (Monday - Friday)
         return ("Yes, unfortunately it's a weekday")                                      #5. Print "Unfortunately its the weekday"
 
     else:                                                                                 #6. Else / Otherwise 
-        return ("It is the weekend, yay!")                                                #7. Print "Yay its the weekend"
+        for weekday in range (5,6):                                                       #7. For days in range 5 - 6 (Saturday - Sunday)                      
+            return ("It is the weekend, yay!")                                            #8. Print "Yay its the weekend"
 
 
-day = input ("Please enter a day of the week: ")                                          #8. Day is set as input from "please enter a day"
-print (whichdayisit (day))                                                                #9. Print the outcome of the input through the formula
+day = input ("Please enter a day of the week: ")                                          #9. Day is set as input from "please enter a day"
+print (whichdayisit (day))                                                                #10. Print the outcome of the input through the formula
 
          
 
