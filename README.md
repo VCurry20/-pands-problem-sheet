@@ -24,7 +24,6 @@ This file contains the overview for the 7 weekly tasks for the Programing and Sc
 > Output - BMI - weight divided by height in metres SQ
 
 <br/>
-
 ## Code:
 
 ```ruby
