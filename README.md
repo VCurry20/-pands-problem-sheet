@@ -12,7 +12,7 @@ This file contains the overview for the 7 weekly tasks for the Programing and Sc
 <br/>
 
 
-## Task 1  - BMI
+# Task 1  - BMI
 
 
 > File - [BMI.py](./https://github.com/VCurry20/-pands-problem-sheet/blob/main/BMI.py)
@@ -25,7 +25,7 @@ This file contains the overview for the 7 weekly tasks for the Programing and Sc
 
 <br/>
 
-# Code:
+## Code:
 
 ```ruby
 name = input ('Enter your name: ')                                          
