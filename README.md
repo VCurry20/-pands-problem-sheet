@@ -5,12 +5,14 @@ Author Veronica Curry
 
 Student ID: G00074924
 
+This file contains the overview for the 7 weekly tasks for the Programing and Scripting Module, GMIT, 2021.
+
 
 <br/>
 <br/>
 
 
-## Week 2: Task 1 
+## Task 1 
 
 
 > File Name - BMI.py
@@ -25,12 +27,18 @@ Student ID: G00074924
 <br/>
 <br/>
 
-I am hopinh this just comes out like the author line above
+```ruby
+name = input ('Enter your name: ')                                          
+print('Hello ' + name + '\nNice to meet you, lets calculate your BMI!')     
 
-That would be great
+height = float(input('Enter your height in CM: '))                          
+heightinmeters = height / 100                                              
+print('Your height in meters is {}'.format(heightinmeters))                 
 
-I do not want it to be giant
+weight = float(input("Input your weight in Kilogram: "))                    
+print('Your weight is {}'.format(weight))                                   
 
-njgnslgns;kg
+BMI = (round(weight / (heightinmeters * heightinmeters), 2))                
+print ( " Your BMI is {}".format (BMI)) 
+```
 
-janjdvnjdv

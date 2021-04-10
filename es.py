@@ -19,7 +19,7 @@ with open (sys.argv[1]) as f:       # 2. Open the file as inputed through the co
     print (freq)                    # 5. Print Frequency
 
 
-"""" Run file by python es.py Ulysses.txt in command line """
+"""" Run file by python typing >  es.py Ulysses.txt  < the in command line """
 
 # Reference 1. https://www.gutenberg.org/files/1400/1400-0.txt
 # Reference 2. https://stackoverflow.com/questions/22694244/counting-specific-letters-or-symbols-in-a-text-file-in-python
