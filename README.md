@@ -185,7 +185,7 @@ References:
 - Docs.python.org, date.weekday function, datetime- Basic data and time types (No Date) - https://www.saltycrane.com/blog/2009/04/how-reverse-words-sentence-using-python-and-c/ (Accessed: March 2021)
 - Github Gist, Python Weekend Checker (2015) - https://gist.github.com/patrickbeeson/e7e848e3398f287c86ea (Accessed: March 2021)
 - Youtube, Python:datetime.date (2016) - https://www.youtube.com/watch?v=nLaq7phtsUU (Accessed: March 2021)
-- Realpython, The Python return statement: usage and best practices (2020) - https://realpython.com/python-return-statement/ (Accessed: March 2021)
+- Codespeedy, Fine the day of week with a given date in python (No Date) - https://www.codespeedy.com/find-the-day-of-week-with-a-given-date-in-python/ (Accessed: March 2021)
 
 
 <br/>
@@ -235,7 +235,7 @@ References:
 <br/>
 
 
-# Task 6  - 
+# Task 6  - ES (Read for E's)
 
 
 > File - [es.py](https://github.com/VCurry20/-pands-problem-sheet/blob/main/es.py)
@@ -279,27 +279,49 @@ References:
 <br/>
 
 
-# Task 7  - 
+# Task 7  - Plot Task
 
 
-> File - [secondstring.py](https://github.com/VCurry20/-pands-problem-sheet/blob/main/secondstring.py)
+> File - [plottask.py](https://github.com/VCurry20/-pands-problem-sheet/blob/main/plotTask.png)
 
-> Objective - 
+> Objective - Write a program that displays a plot of functions
 
-> Input - 
+> Input - Functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes
 
-> Output - 
+> Output -  ![alt text](https://github.com/VCurry20/-pands-problem-sheet/blob/main/plotTask.png)
 
 
 ## Code:
 
 ```ruby
-phrase = input ( "Please submit a phrase: ")                                            
-print ( "Your phrase is: " + phrase +"\nWe will now return this reverted")              
+import matplotlib.pyplot as plt                                                         
+import numpy as np                                                                      
 
-print ( "Your phrase reverted is: " + (phrase[::-1]))                                  
 
-print ( "Your phrase revert and missing every second letter is: " + (phrase[::-2]))
+fplot= np.array(range(0,4))                                                             
+gplot= fplot * fplot                                                                    
+hplot= fplot * fplot * fplot                                                            
+ 
+plt.plot(hplot, label='Line H', color='#6495ED', linewidth=4)                           
+plt.plot(gplot, label='Line G', color='#40E0D0', linewidth=4, linestyle=':')            
+plt.plot(fplot, label='Line F', color='#9FE2BF', linewidth=4, linestyle=':')           
+
+plt.title('Task Week 8', fontsize= 16)                                                  
+plt.xlabel('X Axis')                                                                    
+plt.ylabel('Y Axis')                                                                    
+plt.legend()                                                                           
+
+plt.gca().spines['top'].set_visible(False)                                              
+plt.gca().spines['right'].set_visible(False)                                            
+
+plt.text(2.25,20, 'Line H')                                                             
+plt.text(2.3,8, 'Line G')                                                              
+plt.text(2.6,4, 'Line F')                                                               
+
+# plt.show ()                      
+
+plt.savefig("plotTask.png")      
+
 ```
 
 .

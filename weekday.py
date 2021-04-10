@@ -45,4 +45,4 @@ print (whichdayisit (day))                                                      
 # Reference 3: https://docs.python.org/3/library/datetime.html#datetime.date.weekday
 # Reference 4: https://gist.github.com/patrickbeeson/e7e848e3398f287c86ea
 # Reference 5: https://www.youtube.com/watch?v=nLaq7phtsUU
-# Reference 6: https://realpython.com/python-return-statement/
+# Reference 6: https://www.codespeedy.com/find-the-day-of-week-with-a-given-date-in-python/
