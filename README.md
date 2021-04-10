@@ -290,7 +290,7 @@ References:
 
 > Output -  
 
-![alt text][align='centre'](https://github.com/VCurry20/-pands-problem-sheet/blob/main/plotTask.png) 
+![alt text](align='centre')(https://github.com/VCurry20/-pands-problem-sheet/blob/main/plotTask.png) 
 
 
 ## Code:
