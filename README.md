@@ -15,7 +15,7 @@ This file contains the overview for the 7 weekly tasks for the Programing and Sc
 ## Task 1  - BMI
 
 
-> File Name - BMI.py - (./BMI.py)
+> File - [BMI.py](./https://github.com/VCurry20/-pands-problem-sheet/blob/main/BMI.py)
 
 > Objective - Write a program that calculates a person's BMI
 
@@ -26,6 +26,8 @@ This file contains the overview for the 7 weekly tasks for the Programing and Sc
 
 <br/>
 <br/>
+
+# Code:
 
 ```ruby
 name = input ('Enter your name: ')                                          
