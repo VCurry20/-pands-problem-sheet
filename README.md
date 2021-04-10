@@ -43,6 +43,7 @@ print ( " Your BMI is {}".format (BMI))
 
 This code asks the user to input their name and greets them. The user is then asked for the height and weight and from this the program calculates their BMI.
 
+
 References:
 
 - BMI formula (http://www.kingsweightlossclinics.co.uk/resources/bmi-checker/)
@@ -52,3 +53,40 @@ References:
 - BMI Python Forumla (https://www.w3resource.com/python-exercises/python-basic-exercise-66.php)
 
 - BMI Calculator (https://www.slimmingworld.ie/bmi-calculator)
+
+
+<br/>
+
+# Task 2  - Second String
+
+
+> File - [secondstring.py](./https://github.com/VCurry20/-pands-problem-sheet/blob/main/secondstring.py)
+
+> Objective - Write a program that asks for a input and outputs every second letter in reverse
+
+> Input - sentence of the users choice
+
+> Output - sentence in reverse - missing every second letter
+
+
+## Code:
+
+```ruby
+phrase = input ( "Please submit a phrase: ")                                            
+print ( "Your phrase is: " + phrase +"\nWe will now return this reverted")              
+
+print ( "Your phrase reverted is: " + (phrase[::-1]))                                  
+
+print ( "Your phrase revert and missing every second letter is: " + (phrase[::-2]))
+```
+
+This code asks the user for an input - example " The quick brown fox jumps over the lazy dog." . The program reverts this input and returns the sentence missing every second letter - example output ".o zletrv pu o wr cu h"
+
+
+References:
+
+- Python Tutorial - https://www.youtube.com/watch?v=ajrtAuDg3yw
+
+- W3 Schools - https://www.w3schools.com/python/python_howto_reverse_string.asp
+
+- Slicing Blog - https://www.saltycrane.com/blog/2009/04/how-reverse-words-sentence-using-python-and-c/
