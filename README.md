@@ -22,8 +22,8 @@ This file contains the overview for the 7 weekly tasks for the Programing and Sc
 > Input - Person's height in Centimetres and weight in Kilograms
 
 > Output - BMI - weight divided by height in metres SQ
-
 <br/>
+
 ## Code:
 
 ```ruby
