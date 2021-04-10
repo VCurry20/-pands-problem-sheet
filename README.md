@@ -64,9 +64,9 @@ References:
 
 > Objective - Write a program that asks for a input and outputs every second letter in reverse
 
-> Input - sentence of the users choice
+> Input - The quick brown fox jumps over the lazy dog.
 
-> Output - every second letter from the sentence reverted
+> Output - .o zletrv pu o wr cu h
 
 
 ## Code:
@@ -80,7 +80,7 @@ print ( "Your phrase reverted is: " + (phrase[::-1]))
 print ( "Your phrase revert and missing every second letter is: " + (phrase[::-2]))
 ```
 
-This code asks the user for an input - example " The quick brown fox jumps over the lazy dog." . The program reverts this input and returns the sentence missing every second letter - example output ".o zletrv pu o wr cu h". 
+This code asks the user for an input - example " The quick brown fox jumps over the lazy dog." . The program reverts this input and returns the sentence missing every second letter - example output ".o zletrv pu o wr cu h". This program uses slicing.
 
 
 References:
@@ -98,11 +98,11 @@ References:
 
 > File - [collatz.py](https://github.com/VCurry20/-pands-problem-sheet/blob/main/collatz.py)
 
-> Objective - 
+> Objective - Asks users to input a positive integer and outputs a list of successive values - successive values calculated as follows - if even divide by two, if odd multiply by three and add one. Program stops at zero.
 
-> Input - 
+> Input - 10
 
-> Output - 
+> Output - 10,5,16,8,4,2,1
 
 
 ## Code:
@@ -131,11 +131,12 @@ print(number)
 
 References:
 
-- https://stackoverflow.com/questions/39835536/python-multiplying-all-even-numbers-in-a-list
-- https://pythonprogramming.net/if-statement-python-3-basics-tutorial/
-- https://dev.to/vikkyomkar/3-ways-to-find-if-a-number-is-odd-even-in-python-1ao7
-- https://www.youtube.com/watch?v=lAp_5qTdOhM
-- https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
+- Multiplication of numbers - https://stackoverflow.com/questions/39835536/python-multiplying-all-even-numbers-in-a-list
+- If statments - https://pythonprogramming.net/if-statement-python-3-basics-tutorial/
+- Numbers even or odd - https://dev.to/vikkyomkar/3-ways-to-find-if-a-number-is-odd-even-in-python-1ao7
+- Collatz prog - https://www.youtube.com/watch?v=lAp_5qTdOhM
+- Stack overflow - collatz -https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
+- Collatz - pg 77 - http://files.urpdfs.com/automate-the-boring-stuff-with-python.pdf
 
 
 

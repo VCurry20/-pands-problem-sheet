@@ -42,9 +42,9 @@ print(number)                                                   # 11. Print the 
 
 
 
-
-# Reference 1. https://stackoverflow.com/questions/39835536/python-multiplying-all-even-numbers-in-a-list
-# Reference 2. https://pythonprogramming.net/if-statement-python-3-basics-tutorial/
-# Reference 3. https://dev.to/vikkyomkar/3-ways-to-find-if-a-number-is-odd-even-in-python-1ao7
-# Reference 4. https://www.youtube.com/watch?v=lAp_5qTdOhM
-# Reference 5. https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
+# Reference 1. Multiplication of numbers - https://stackoverflow.com/questions/39835536/python-multiplying-all-even-numbers-in-a-list
+# Reference 2. If statments - https://pythonprogramming.net/if-statement-python-3-basics-tutorial/
+# Reference 3. Numbers even or odd - https://dev.to/vikkyomkar/3-ways-to-find-if-a-number-is-odd-even-in-python-1ao7
+# Reference 4. Collatz prog - https://www.youtube.com/watch?v=lAp_5qTdOhM
+# Reference 5. Stack overflow - collatz -https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
+# Reference 6. Collatz - pg 77 - http://files.urpdfs.com/automate-the-boring-stuff-with-python
