@@ -331,10 +331,22 @@ plt.savefig("plotTask.png")
 
 References:
 
-- Youtube, Python Tutorial: Slicing lists and Strings (Oct 29, 2015) - https://www.youtube.com/watch?v=ajrtAuDg3yw (Accessed: February 2021)
+- Info Please, Behold the Power of Exponents (No Date) - https://www.infoplease.com/math-science/mathematics/algebra/behold-the-power-of-exponents (Accessed: April 2021)
 
-- W3 Schools, How to reverse a string, (No Date) - https://www.w3schools.com/python/python_howto_reverse_string.asp (Accessed: February 2021)
+- Math Works, How to created plot with three lines, (Feb 15, 2015) - https://uk.mathworks.com/matlabcentral/answers/178523-how-to-created-plot-with-three-lines (Accessed: April 2021)
 
-- Salty Crane Blog, How to reverse words in a sentence using Python and C (April 22, 2009) - https://www.saltycrane.com/blog/2009/04/how-reverse-words-sentence-using-python-and-c/ (Accessed: February 2021)
+- Andrew Beatty, Lab week 8 / Question 5 - write a program y = x2 ( March 4, 2021) - https://learnonline.gmit.ie/pluginfile.php/306744/mod_label/intro/Lab%2008%20matplotlb.pdf (Accessed: April 2021)
+
+- Stack Overflow, How to make matplotlib graphs look professionally done like this? [closed] (2015) https://stackoverflow.com/questions/24547047/how-to-make-matplotlib-graphs-look-professionally-done-like-this (Accessed: April 2021)
+
+- Towards Data Science, Simple ways to improve your matplotlib ( Aug 14, 2019) https://towardsdatascience.com/simple-ways-to-improve-your-matplotlib-b64eebccfd5 (Accessed: April 2021)
+
+- HTML Coloe Codes, Get HTML color codes, Hex color codes, RGB and HSL values with our color picker, color chart and HTML color names. Let's go! (No Date) https://htmlcolorcodes.com/ (Accessed: April 2021)
+
+- Towards Data Science, 10 tips to improve your plotting (Sept 25, 2019)   https://towardsdatascience.com/10-tips-to-improve-your-plotting-f346fa468d18 (Accessed: April 2021)
+- Python informer, Line plot styles in Matplotlib (March 7, 2019) https://www.pythoninformer.com/python-libraries/matplotlib/line-plots/#:~:text=You%20can%20set%20the%20width,style%20using%20the%20linestyle%20parameter. (Accessed: April 2021)
+- Queirozf.com, Add Labels and Text to Matplotlib Plots: Annotation Examples (Oct 10, 2020) https://queirozf.com/entries/add-labels-and-text-to-matplotlib-plots-annotation-examples (Accessed: April 2021)
+- Uk Math Works, Add Title and Axis Labels to Chart (No Date) https://uk.mathworks.com/help/matlab/creating_plots/add-title-axis-labels-and-legend-to-graph.html (Accessed: April 2021)
+
 
 <br/>

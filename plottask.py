@@ -51,12 +51,11 @@ plt.savefig("plotTask.png")       # save the plot
 # Reference 3. Lab week 8 / Question 5 - write a program y = x2
 # Reference 4. https://stackoverflow.com/questions/24547047/how-to-make-matplotlib-graphs-look-professionally-done-like-this
 # Reference 5. https://towardsdatascience.com/simple-ways-to-improve-your-matplotlib-b64eebccfd5
-# Reference 6. https://www.w3schools.com/colors/colors_picker.asp
-# Reference 7. https://htmlcolorcodes.com/
-# Reference 8. https://towardsdatascience.com/10-tips-to-improve-your-plotting-f346fa468d18
-# Reference 9. https://www.pythoninformer.com/python-libraries/matplotlib/line-plots/#:~:text=You%20can%20set%20the%20width,style%20using%20the%20linestyle%20parameter.
-# Reference 10. https://queirozf.com/entries/add-labels-and-text-to-matplotlib-plots-annotation-examples
-# Reference 11. https://uk.mathworks.com/help/matlab/creating_plots/add-title-axis-labels-and-legend-to-graph.html
+# Reference 6. https://htmlcolorcodes.com/
+# Reference 7. https://towardsdatascience.com/10-tips-to-improve-your-plotting-f346fa468d18
+# Reference 8. https://www.pythoninformer.com/python-libraries/matplotlib/line-plots/#:~:text=You%20can%20set%20the%20width,style%20using%20the%20linestyle%20parameter.
+# Reference 9. https://queirozf.com/entries/add-labels-and-text-to-matplotlib-plots-annotation-examples
+# Reference 10. https://uk.mathworks.com/help/matlab/creating_plots/add-title-axis-labels-and-legend-to-graph.html
 
 
 
