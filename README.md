@@ -41,18 +41,20 @@ BMI = (round(weight / (heightinmeters * heightinmeters), 2))
 print ( " Your BMI is {}".format (BMI)) 
 ```
 
-This code asks the user to input their name and greets them. The user is then asked for their height and weight and from this the program calculates their BMI. BMI formula (weight / (height * height), 2)
+This Program asks the user to input their name and greets them. The user is then asked for their height and weight and from this the program calculates their BMI. 
+
+BMI formula (weight / (height * height), 2)
 
 
 References:
 
-- Kings Weightloss Clinic, BMI Checker, (No Date), http://www.kingsweightlossclinics.co.uk/resources/bmi-checker/ (Accessed: February 2021)
+- Kings Weightloss Clinic, BMI Checker (No Date), http://www.kingsweightlossclinics.co.uk/resources/bmi-checker/ (Accessed: February 2021)
 
-- Stack Overflow, BMI Calculator Python, (2014), https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292#:~:text=')%20while%20input%20%3D%3D%20'imperial,which%20means%20you%20are%20underweight. (Accessed: February 2021)
+- Stack Overflow, BMI Calculator Python (2014), https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292#:~:text=')%20while%20input%20%3D%3D%20'imperial,which%20means%20you%20are%20underweight. (Accessed: February 2021)
 
-- W3 Resource, BMI Python Forumla (2017), https://www.w3resource.com/python-exercises/python-basic-exercise-66.php (Accessed: February 2021)
+- Code Review, Simple BMI Calculator (2020) https://codereview.stackexchange.com/questions/217751/simple-bmi-calculator-python-3 (Accessed: February 2021)
 
-- Slimming World, BMI Calculator, (No Date) https://www.slimmingworld.ie/bmi-calculator (Accessed: February 2021)
+- Slimming World, BMI Calculator (No Date) https://www.slimmingworld.ie/bmi-calculator (Accessed: February 2021)
 
 
 <br/>
@@ -90,6 +92,8 @@ References:
 - W3 Schools, How to reverse a string, (No Date) - https://www.w3schools.com/python/python_howto_reverse_string.asp (Accessed: February 2021)
 
 - Salty Crane Blog, How to reverse words in a sentence using Python and C (April 22, 2009) - https://www.saltycrane.com/blog/2009/04/how-reverse-words-sentence-using-python-and-c/ (Accessed: February 2021)
+
+- Educative.io, How do you reverse a string in Python? (No Date) - https://www.educative.io/edpresso/how-do-you-reverse-a-string-in-python (Accessed: February 2021)
 <br/>
 
 # Task 3  - Collatz
@@ -130,10 +134,15 @@ From this formula numbers are then passed through - each number is printed to th
 References:
 
 - Stack Overflow, Python Multiplying all even numbers in a list (2017) - https://stackoverflow.com/questions/39835536/python-multiplying-all-even-numbers-in-a-list (Accessed: February 2021)
+
 - Python Programming.net, If statments python tutorial ( Jan 13th, 2014) - https://pythonprogramming.net/if-statement-python-3-basics-tutorial/ (Accessed: February 2021)
+
 - Dev Community, 3 wats to find if a numbers is odd/even in python ( Aug 27th, 2020) - https://dev.to/vikkyomkar/3-ways-to-find-if-a-number-is-odd-even-in-python-1ao7 (Accessed: February 2021) 
+
 - Youtube, Collatz Sequence Algorithm in Python! ( May 8, 2020) - https://www.youtube.com/watch?v=lAp_5qTdOhM (Accessed: February 2021)
+
 - Stack overflow - Making a collatz program automate the boring stuff (2016) -https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff (Accessed: February 2021)
+
 - Automate the boring stuff, Al Sweigart, - Collatz - pg 77 - http://files.urpdfs.com/automate-the-boring-stuff-with-python.pdf (Accessed: February 2021)
 
 
@@ -181,10 +190,15 @@ In this program the user is asked to input a day and it returns if it is a weeke
 References:
 
 - Pythonic.com, Weekday Function in Python (2020) - https://pythontic.com/datetime/date/weekday (Accessed: March 2021)
+
 - Stack Overflow, How to find current day is weekday or weekends in Python? Duplicate, (2015) - https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python (Accessed: March 2021)
+
 - Docs.python.org, date.weekday function, datetime- Basic data and time types (No Date) - https://www.saltycrane.com/blog/2009/04/how-reverse-words-sentence-using-python-and-c/ (Accessed: March 2021)
+
 - Github Gist, Python Weekend Checker (2015) - https://gist.github.com/patrickbeeson/e7e848e3398f287c86ea (Accessed: March 2021)
+
 - Youtube, Python:datetime.date (2016) - https://www.youtube.com/watch?v=nLaq7phtsUU (Accessed: March 2021)
+
 - Codespeedy, Fine the day of week with a given date in python (No Date) - https://www.codespeedy.com/find-the-day-of-week-with-a-given-date-in-python/ (Accessed: March 2021)
 
 
@@ -230,7 +244,11 @@ References:
 
 - Stack Overflow, Square root without pre-defined function in python (2018) - https://stackoverflow.com/questions/46183020/square-root-without-pre-defined-function-in-python (Accessed: March 2021)
 
-- Stack Overflow, Limiting floats to two decimal points (2009) - (https://stackoverflow.com/questions/455612/limiting-floats-to-two-decimal-points) a number using Newton’s method (May 18th, 2020) - https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,correct%20square%20root%20of%20N. (Accessed: March 2021)
+- Stack Overflow, Limiting floats to two decimal points (2009) - https://stackoverflow.com/questions/455612/limiting-floats-to-two-decimal-points (Accessed: March 2021)
+
+- Sololearn.com, How can we calculate square root without using any built-in function in python? (April 5, 2020) https://www.sololearn.com/Discuss/2228331/how-can-we-calculate-square-root-without-using-any-built-in-function-in-python (Accessed: March 2021)
+
+- Stack Overflow, Finding square root without using sqrt function? (2014) https://stackoverflow.com/questions/19611198/finding-square-root-without-using-sqrt-function (Accessed: March 2021)
 
 <br/>
 

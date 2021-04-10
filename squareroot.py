@@ -35,3 +35,5 @@ squareRoot (float(number))               # 10. result is the formula acted on n 
 # Reference 2: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,correct%20square%20root%20of%20N.
 # Reference 3: https://stackoverflow.com/questions/46183020/square-root-without-pre-defined-function-in-python
 # Reference 4: https://stackoverflow.com/questions/455612/limiting-floats-to-two-decimal-points
+# Reference 5: https://www.sololearn.com/Discuss/2228331/how-can-we-calculate-square-root-without-using-any-built-in-function-in-python 
+# Reference 6: https://stackoverflow.com/questions/19611198/finding-square-root-without-using-sqrt-function

@@ -31,7 +31,7 @@ print ( " Your BMI is {}".format (BMI))                                     # 9.
 
 
 
-# Reference 1 - BMI formula http://www.kingsweightlossclinics.co.uk/resources/bmi-checker/
-# Reference 2 - BMI Python https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292#:~:text=')%20while%20input%20%3D%3D%20'imperial,which%20means%20you%20are%20underweight.
-# Reference 3 - BMI Python Forumla https://www.w3resource.com/python-exercises/python-basic-exercise-66.php
-# Reference 4 - BMI Calculator - https://www.slimmingworld.ie/bmi-calculator
+# Reference 1 - http://www.kingsweightlossclinics.co.uk/resources/bmi-checker/
+# Reference 2 - https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292#:~:text=')%20while%20input%20%3D%3D%20'imperial,which%20means%20you%20are%20underweight.
+# Reference 3 - https://codereview.stackexchange.com/questions/217751/simple-bmi-calculator-python-3
+# Reference 4 - https://www.slimmingworld.ie/bmi-calculator
