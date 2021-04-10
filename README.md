@@ -41,7 +41,7 @@ BMI = (round(weight / (heightinmeters * heightinmeters), 2))
 print ( " Your BMI is {}".format (BMI)) 
 ```
 
-This code asks the user to input their name and greets them. The user is then asked for the height and weight and from this the program calculates their BMI.
+This code asks the user to input their name and greets them. The user is then asked for their height and weight and from this the program calculates their BMI. BMI formula (weight / (height * height), 2)
 
 
 References:
@@ -80,7 +80,7 @@ print ( "Your phrase reverted is: " + (phrase[::-1]))
 print ( "Your phrase revert and missing every second letter is: " + (phrase[::-2]))
 ```
 
-This code asks the user for an input - example " The quick brown fox jumps over the lazy dog." . The program reverts this input and returns the sentence missing every second letter - example output ".o zletrv pu o wr cu h". This program uses slicing.
+This code asks the user for an input - example " The quick brown fox jumps over the lazy dog." . The program reverts this input and returns the sentence missing every second letter - example output ".o zletrv pu o wr cu h". This program uses slicing and also reversing.
 
 
 References:
