@@ -288,7 +288,9 @@ References:
 
 > Input - Functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes
 
-> Output -  ![alt text](https://github.com/VCurry20/-pands-problem-sheet/blob/main/plotTask.png)
+> Output -  
+
+![alt text](https://github.com/VCurry20/-pands-problem-sheet/blob/main/plotTask.png)
 
 
 ## Code:
