@@ -95,7 +95,7 @@ References:
 
 > File - [collatz.py](https://github.com/VCurry20/-pands-problem-sheet/blob/main/collatz.py)
 
-> Objective - Write a program that asks users to input a positive integer and outputs a list of successive values - successive values calculated as follows - if even divide by two, if odd multiply by three and add one. Program stops at zero.
+> Objective - Write a program that asks users to input a positive integer and outputs a list of successive values - successive values calculated as follows - if even divide by two, if odd multiply by three and add one. Program stops at one.
 
 > Input - 10
 
@@ -124,6 +124,8 @@ print(number)
 ```
 In this program a formula is definied; this checks if the number is even - if even it divides by 2, if not it is odd and therefore it is multiplied by 3 and 1 is added to it.
 From this formula numbers are then passed through - each number is printed to the variable and returned as an output at the end of the program.
+
+This program uses the if / else syntax and also the while syntax. These allow for processes to occur only when certain requirements are met, for example in the formula if the number is even it returns one value, else it returns another.  
 
 References:
 
