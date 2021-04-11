@@ -258,7 +258,7 @@ with open (sys.argv[1]) as f:
 ## Run file by python typing >  es.py Ulysses.txt  < the in command line ##
 ```
 This program uses the imported System module to access outside files, it then accesses a txt document containing Ulysses by James Joyce. The txt.file is reviewed for "e"'s and the number of "e"'s is returned to the user.
-This file take no user input - you run this program via the command line - ```[python]``` ```[program name]``` ```[txt file name]```.   
+This file take no user input - you run this program via the command line - ```[python][program name][txt file name]```.   
 
 
 References:
