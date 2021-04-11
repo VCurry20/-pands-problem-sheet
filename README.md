@@ -41,8 +41,10 @@ print ( " Your BMI is {}".format (BMI))
 This Program asks the user to input their name and greets them. The user is then asked to input their height in CM, which is converted to Metres. This is then confirmed to the user. The Users weight is then requested and confirmed. Height and Weight are saved as variables allowing multiple users to use the program inputting their own specific data. Height and Weight are formatted as floats as opposed to string input from questions. These variables are then passed through the formula. The last output the user sees is their BMI confirmed to them. <p align= "centre">
 
 <div align='centre'>
-BMI formula (weight / (height * height), 2)
+
+# BMI formula (weight / (height * height), 2)
 </div>
+<br/>
 
 
 
