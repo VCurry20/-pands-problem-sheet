@@ -19,7 +19,7 @@ This file contains the overview for the 7 weekly tasks for the Programing and Sc
 
 > Objective - Write a program that calculates a person's BMI
 
-> Input - Person's height in Centimetres and weight in Kilograms
+> Input - Person's height in centimetres and weight in kilograms
 
 > Output - BMI - weight divided by height in metres SQ
 
@@ -41,19 +41,16 @@ BMI = (round(weight / (heightinmeters * heightinmeters), 2))
 print ( " Your BMI is {}".format (BMI)) 
 ```
 
-This Program asks the user to input their name and greets them. The user is then asked for their height and weight and from this the program calculates their BMI. 
+This Program asks the user to input their name and greets them. The user is then asked to input their height in CM, which is converted to Metres. This is then confirmed to the user. The Users weight is then requested and confirmed. Height and Weight are saved as variables allowing multiple users to use the program inputting their own specific data. Height and Weight are formatted as floats as opposed to string input from questions. These variables are then passed through the formula. The last output the user sees is their BMI confirmed to them.
 
-BMI formula (weight / (height * height), 2)
+> BMI formula (weight / (height * height), 2)
 
 
 References:
 
 - Kings Weightloss Clinic, BMI Checker (No Date), http://www.kingsweightlossclinics.co.uk/resources/bmi-checker/ (Accessed: February 2021)
-
 - Stack Overflow, BMI Calculator Python (2014), https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292#:~:text=')%20while%20input%20%3D%3D%20'imperial,which%20means%20you%20are%20underweight. (Accessed: February 2021)
-
 - Code Review, Simple BMI Calculator (2020) https://codereview.stackexchange.com/questions/217751/simple-bmi-calculator-python-3 (Accessed: February 2021)
-
 - Slimming World, BMI Calculator (No Date) https://www.slimmingworld.ie/bmi-calculator (Accessed: February 2021)
 
 
@@ -88,11 +85,8 @@ This code asks the user for an input - example " The quick brown fox jumps over 
 References:
 
 - Youtube, Python Tutorial: Slicing lists and Strings (Oct 29, 2015) - https://www.youtube.com/watch?v=ajrtAuDg3yw (Accessed: February 2021)
-
 - W3 Schools, How to reverse a string, (No Date) - https://www.w3schools.com/python/python_howto_reverse_string.asp (Accessed: February 2021)
-
 - Salty Crane Blog, How to reverse words in a sentence using Python and C (April 22, 2009) - https://www.saltycrane.com/blog/2009/04/how-reverse-words-sentence-using-python-and-c/ (Accessed: February 2021)
-
 - Educative.io, How do you reverse a string in Python? (No Date) - https://www.educative.io/edpresso/how-do-you-reverse-a-string-in-python (Accessed: February 2021)
 <br/>
 
@@ -134,15 +128,10 @@ From this formula numbers are then passed through - each number is printed to th
 References:
 
 - Stack Overflow, Python Multiplying all even numbers in a list (2017) - https://stackoverflow.com/questions/39835536/python-multiplying-all-even-numbers-in-a-list (Accessed: February 2021)
-
 - Python Programming.net, If statments python tutorial ( Jan 13th, 2014) - https://pythonprogramming.net/if-statement-python-3-basics-tutorial/ (Accessed: February 2021)
-
 - Dev Community, 3 wats to find if a numbers is odd/even in python ( Aug 27th, 2020) - https://dev.to/vikkyomkar/3-ways-to-find-if-a-number-is-odd-even-in-python-1ao7 (Accessed: February 2021) 
-
 - Youtube, Collatz Sequence Algorithm in Python! ( May 8, 2020) - https://www.youtube.com/watch?v=lAp_5qTdOhM (Accessed: February 2021)
-
 - Stack overflow - Making a collatz program automate the boring stuff (2016) -https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff (Accessed: February 2021)
-
 - Automate the boring stuff, Al Sweigart, - Collatz - pg 77 - http://files.urpdfs.com/automate-the-boring-stuff-with-python.pdf (Accessed: February 2021)
 
 
@@ -190,15 +179,10 @@ In this program the user is asked to input a day and it returns if it is a weeke
 References:
 
 - Pythonic.com, Weekday Function in Python (2020) - https://pythontic.com/datetime/date/weekday (Accessed: March 2021)
-
 - Stack Overflow, How to find current day is weekday or weekends in Python? Duplicate, (2015) - https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python (Accessed: March 2021)
-
 - Docs.python.org, date.weekday function, datetime- Basic data and time types (No Date) - https://www.saltycrane.com/blog/2009/04/how-reverse-words-sentence-using-python-and-c/ (Accessed: March 2021)
-
 - Github Gist, Python Weekend Checker (2015) - https://gist.github.com/patrickbeeson/e7e848e3398f287c86ea (Accessed: March 2021)
-
 - Youtube, Python:datetime.date (2016) - https://www.youtube.com/watch?v=nLaq7phtsUU (Accessed: March 2021)
-
 - Codespeedy, Fine the day of week with a given date in python (No Date) - https://www.codespeedy.com/find-the-day-of-week-with-a-given-date-in-python/ (Accessed: March 2021)
 
 
@@ -239,15 +223,10 @@ squareRoot (float(number))
 References:
 
 - Youtube, Square root of any number instantly - shortcut math (May 6th, 2016) - https://www.youtube.com/watch?v=PJHtqMjrStk (Accessed: March 2021)
-
 - GeeksforGeeks.org, Find root of a number using Newton’s method (May 18th, 2020) - https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,correct%20square%20root%20of%20N. (Accessed: March 2021)
-
 - Stack Overflow, Square root without pre-defined function in python (2018) - https://stackoverflow.com/questions/46183020/square-root-without-pre-defined-function-in-python (Accessed: March 2021)
-
 - Stack Overflow, Limiting floats to two decimal points (2009) - https://stackoverflow.com/questions/455612/limiting-floats-to-two-decimal-points (Accessed: March 2021)
-
 - Sololearn.com, How can we calculate square root without using any built-in function in python? (April 5, 2020) https://www.sololearn.com/Discuss/2228331/how-can-we-calculate-square-root-without-using-any-built-in-function-in-python (Accessed: March 2021)
-
 - Stack Overflow, Finding square root without using sqrt function? (2014) https://stackoverflow.com/questions/19611198/finding-square-root-without-using-sqrt-function (Accessed: March 2021)
 
 <br/>
@@ -283,15 +262,10 @@ This program uses the imported System module to access outside files, it then ac
 References:
 
 - Gutenberg.org, The Project Gutenberg eBook of Ulysses, by James Joyce (Dec 27, 2019) - https://www.gutenberg.org/files/4300/4300-0.txt (Accessed: April 2021)
-
 - Stack Overflow, Counting specific letters or symbols in a text file in Python (2014) - https://stackoverflow.com/questions/22694244/counting-specific-letters-or-symbols-in-a-text-file-in-python (Accessed: April 2021)
-
 - Python Examples, Python – Count Number of Characters in Text File (No Date) - https://pythonexamples.org/python-count-number-of-characters-in-text-file/ (Accessed: April 2021)
-
 - Geeks for Geeks, Count the number of times a letter appears in a text file in Python (Nov 25, 2020)   https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/ (Accessed: April 2021)
-
 - Tutorialspoint, Python - Command line arguments (No Date) - https://www.tutorialspoint.com/python/python_command_line_arguments.htm (Accessed: April 2021)
-
 - Python Docs, System Specific Parameters and Functions (No Date) - https://docs.python.org/3/library/sys.html (Accessed: April 2021)
 
 <br/>
@@ -350,17 +324,11 @@ plt.savefig("plotTask.png")
 References:
 
 - Info Please, Behold the Power of Exponents (No Date) - https://www.infoplease.com/math-science/mathematics/algebra/behold-the-power-of-exponents (Accessed: April 2021)
-
 - Math Works, How to created plot with three lines, (Feb 15, 2015) - https://uk.mathworks.com/matlabcentral/answers/178523-how-to-created-plot-with-three-lines (Accessed: April 2021)
-
 - Andrew Beatty, Lab week 8 / Question 5 - write a program y = x2 ( March 4, 2021) - https://learnonline.gmit.ie/pluginfile.php/306744/mod_label/intro/Lab%2008%20matplotlb.pdf (Accessed: April 2021)
-
 - Stack Overflow, How to make matplotlib graphs look professionally done like this? [closed] (2015) https://stackoverflow.com/questions/24547047/how-to-make-matplotlib-graphs-look-professionally-done-like-this (Accessed: April 2021)
-
 - Towards Data Science, Simple ways to improve your matplotlib ( Aug 14, 2019) https://towardsdatascience.com/simple-ways-to-improve-your-matplotlib-b64eebccfd5 (Accessed: April 2021)
-
 - HTML Coloe Codes, Get HTML color codes, Hex color codes, RGB and HSL values with our color picker, color chart and HTML color names. Let's go! (No Date) https://htmlcolorcodes.com/ (Accessed: April 2021)
-
 - Towards Data Science, 10 tips to improve your plotting (Sept 25, 2019)   https://towardsdatascience.com/10-tips-to-improve-your-plotting-f346fa468d18 (Accessed: April 2021)
 - Python informer, Line plot styles in Matplotlib (March 7, 2019) https://www.pythoninformer.com/python-libraries/matplotlib/line-plots/#:~:text=You%20can%20set%20the%20width,style%20using%20the%20linestyle%20parameter. (Accessed: April 2021)
 - Queirozf.com, Add Labels and Text to Matplotlib Plots: Annotation Examples (Oct 10, 2020) https://queirozf.com/entries/add-labels-and-text-to-matplotlib-plots-annotation-examples (Accessed: April 2021)
