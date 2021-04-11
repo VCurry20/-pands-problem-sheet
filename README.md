@@ -368,3 +368,20 @@ References:
 
 
 <br/>
+
+# Task 8 - Read Me File
+
+
+> File - Readme.md
+
+> Objective - Outline the Tasks - Code, Aim, and References
+
+
+References:
+- Github Docs, Basic Writing and Formatting Syntax (No Date) https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax (Accessed: April 2021)
+- Github guides, Mastering Markdown (No Date) https://guides.github.com/features/mastering-markdown/ (Accessed: April 2021)
+- Github Docs, About Readmes (No Date) https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes  (Accessed: April 2021)
+- Github Docs, Creating and Highlighting code blocks (No Date) https://docs.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks (Accessed: April 2021)
+- Github, Adam P, Markdown CheatSheet (May 29, 2017) https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet (Accessed: April 2021)
+- Stack Overflow, GitHub relative link in Markdown file (2012) https://stackoverflow.com/questions/7653483/github-relative-link-in-markdown-file (Accessed: April 2021)
+- Stack OVerflow, How to add images to README.md on GitHub? (2013) https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github (Accessed: April 2021)
