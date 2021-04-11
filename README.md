@@ -257,8 +257,8 @@ with open (sys.argv[1]) as f:
 
 ## Run file by python typing >  es.py Ulysses.txt  < the in command line ##
 ```
-This program uses the imported System module to access outside files, it then accesses a txt document containing Ulysses by James Joyce. The txt.file is reviewed for "e"'s and the number of "e"'s is returned to the user.
-This file take no user input - you run this program via the command line - ```[python][program name][txt file name]```.   
+This program uses the imported System module to access outside files, it then accesses a txt document containing Ulysses by James Joyce. The txt.file is reviewed for "e"'s and the frequence of the number of "e"'s is returned to the user. 
+This file takes no user input - you run this program via the command line - ```[python][program name][txt file name]```.   
 
 
 References:
@@ -320,7 +320,9 @@ plt.savefig("plotTask.png")
 
 ```
 
-.
+In this program information is stored and plotted - using the imported modules numpy and matplotlib. 
+First the graph is set and then the various points (lines) are set on this graph. In this case the lines are labeled, colorcoded, with linewidth and line type formatted. Additional items are then plotted on the graph - a title, axis labels and a legend. The spines or sides of the graph are set as visible (false); or set as invisible. Finally the lines are named and these are set at coordinates on the graph. 
+Once this has been set you can show plot or save plot as "plottask".
 
 
 References:
