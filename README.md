@@ -42,7 +42,7 @@ This Program asks the user to input their name and greets them. The user is then
 
 <div align='centre'>
 
-# BMI formula (weight / (height * height), 2)
+BMI formula (weight / (height * height), 2)
 </div>
 <br/>
 
