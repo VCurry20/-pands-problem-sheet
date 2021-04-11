@@ -7,10 +7,8 @@ Student ID: G00074924
 
 This file contains the overview for the 7 weekly tasks for the Programing and Scripting Module, GMIT, 2021.
 
-
 <br/>
 <br/>
-
 
 # Task 1  - BMI
 
