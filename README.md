@@ -46,7 +46,10 @@ BMI formula (weight / (height * height), 2)
 </div>
 <br/>
 
+<table align="center"><tr><td align="center" width="9999">
 
+BMI formula (weight / (height * height), 2)
+</td></tr></table>
 
 References:
 
