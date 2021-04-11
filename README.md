@@ -43,10 +43,10 @@ This Program asks the user to input their name and greets them. The user is then
 <table align="center"><tr><td align="center" width="9999">
 BMI formula (weight / (height * height), 2)
 </td></tr></table>
-
+<br/>
 References:
 
-* Kings Weightloss Clinic, BMI Checker (No Date), http://www.kingsweightlossclinics.co.uk/resources/bmi-checker/ (Accessed: February 2021)
+- Kings Weightloss Clinic, BMI Checker (No Date), http://www.kingsweightlossclinics.co.uk/resources/bmi-checker/ (Accessed: February 2021)
 - Stack Overflow, BMI Calculator Python (2014), https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292#:~:text=')%20while%20input%20%3D%3D%20'imperial,which%20means%20you%20are%20underweight. (Accessed: February 2021)
 - Code Review, Simple BMI Calculator (2020) https://codereview.stackexchange.com/questions/217751/simple-bmi-calculator-python-3 (Accessed: February 2021)
 - Slimming World, BMI Calculator (No Date) https://www.slimmingworld.ie/bmi-calculator (Accessed: February 2021)
