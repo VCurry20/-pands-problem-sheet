@@ -30,7 +30,7 @@ def squareRoot (number):                 # 1. Define formula - everything indent
 number = input('enter the number: ')    # 9. n is the input from the question 'enter the number '
 squareRoot (float(number))               # 10. result is the formula acted on n - n is presented as a float
 
-"""""Code from https://stackoverflow.com/questions/46183020/square-root-without-pre-defined-function-in-python""""
+"""""Code from https://stackoverflow.com/questions/46183020/square-root-without-pre-defined-function-in-python"""""
 
 
 # Reference 1: https://www.youtube.com/watch?v=PJHtqMjrStk

@@ -218,8 +218,7 @@ def squareRoot (number):
 number = input('enter the number : ')    
 squareRoot (float(number))               
 ```
-In this program we define a formula called Squareroot; x is the float version of the input, y 
-
+In this program we define a formula called Squareroot; x is the float version of the input, y is an initalisation of the looping process, e sets the accurancy. The entered number is then processed through this and the square root of this number is outputted. This is a loop that keep going until the best option is found. 
 
 References:
 
@@ -259,6 +258,8 @@ with open (sys.argv[1]) as f:
 ## Run file by python typing >  es.py Ulysses.txt  < the in command line ##
 ```
 This program uses the imported System module to access outside files, it then accesses a txt document containing Ulysses by James Joyce. The txt.file is reviewed for "e"'s and the number of "e"'s is returned to the user.
+This file take no user input - you run this program via the command line - python <program name> <txt file name>
+
 
 References:
 
