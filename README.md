@@ -175,8 +175,8 @@ def whichdayisit (weekday):
 day = input ("Please enter a day of the week: ")                                          
 print (whichdayisit (day))                                                                
 ```
-In this program the user is asked to input a day and it returns if it is a weekend or not. The program workds from a predefined formula, which uses the imported datetime module.
-
+In this program the user is asked to input a day and it returns if it is a weekend or not. The program sets the range of days within the week and defines a formula to check the days within this range. For days in range 0,4 (Monday - Friday), return that it is a weekday; else return it is the weekend.
+The user is asked to input a day and this is passed through the formula outputting the correct response.
 
 References:
 
@@ -218,8 +218,7 @@ def squareRoot (number):
 number = input('enter the number : ')    
 squareRoot (float(number))               
 ```
-
-.
+In this program we define a formula called Squareroot; x is the float version of the input, y 
 
 
 References:

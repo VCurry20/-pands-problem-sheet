@@ -20,15 +20,17 @@
 
 def squareRoot (number):                 # 1. Define formula - everything indented under def is included in the forumla
     x=float(number)                      # 2. Start outlining the meaning of the parts of the formula - x = the float version of input n
-    y=1.000000                           # 3. iteration initialisation / y = float 1.0000
+    y=1.000000                           # 3. iteration initialisation / starting the looping process 
     e=0.000001                           # 4. accuracy after decimal place / e = float 0.00001
-    while x - y > e:                     # 5. While loop - while x - y is greater than e ( 0.00001) - stop at 0.00001
+    while x - y > e:                     # 5. While loop - while x - y is greater than e ( 0.00001) - stop at 0.00001 - this keeps going until its find the closest answer
           x = (x + y) / 2                # 6. x = x + y divided by 2
           y = number/x                   # 7. y = n divided by x
     print (round(x,2))                   # 8. result from the formula is round x - for 2 decimal points - x to 2 decimal points
 
-number = input('enter the number : ')    # 9. n is the input from the question 'enter the number '
+number = input('enter the number: ')    # 9. n is the input from the question 'enter the number '
 squareRoot (float(number))               # 10. result is the formula acted on n - n is presented as a float
+
+"""""Code from https://stackoverflow.com/questions/46183020/square-root-without-pre-defined-function-in-python""""
 
 
 # Reference 1: https://www.youtube.com/watch?v=PJHtqMjrStk
